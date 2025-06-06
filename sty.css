@@ -1,0 +1,27 @@
+.header{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  ;
+}
+.nav{
+    background-color: ;
+    color: white;
+    justify-content: space-between;
+    padding: 20px;
+    display: flex;
+}
+.nav a{
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.textimage{
+    margin-left: 900px;
+}
+.quote{
+    background-color: grey;
+    padding: 50px 100px;
+    font-size: 20px;
+    color: black;
+    align-content: center;
+}
+

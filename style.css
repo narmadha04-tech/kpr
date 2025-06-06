@@ -9,6 +9,10 @@ p:hover{
     background-color: azure;
 }
 
+.test{
+    color: aqua;
+}
+
 .border{
     border: 2px solid brown;
     th, td {
@@ -86,4 +90,45 @@ p:hover{
     border: 2px solid black;
     height: 100px;
     width: 100px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0px;
+    margin: 0px;
+    height: 100px;
+}
+
+.navbar li{
+    list-style: none;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.grid-container div{
+    border: 2px solid brown;
+}
+
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+@media (max-width: 468px) {
+    .nav{
+        display: flex;
+        flex-direction: row;
+        color: aquamarine;
+    }
+
 }
