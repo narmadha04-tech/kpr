@@ -1,6 +1,6 @@
 .header{
+    background-color: #1f2937;
     font-family: Arial, Helvetica, sans-serif;
-    background-color:  ;
 }
 .nav{
     background-color: ;
@@ -25,3 +25,19 @@
     align-content: center;
 }
 
+.cta button {
+  background-color: white;
+  color: #3882f6;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 20px;
